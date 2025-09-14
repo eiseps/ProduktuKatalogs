@@ -54,7 +54,7 @@
                 katalogs.Items.Add(produkts.Informacija());
                 kopejaVertiba += produkts.Cena;
             }
-            katalogaVertiba.Text = $"Kopējā kataloga vērtība: {kopejaVertiba}€";
+            katalogaVertiba.Text = $"Kopējā kataloga vērtība: {kopejaVertiba} €";
         }
         private void NotiritLaukus()
         {
@@ -91,7 +91,7 @@
         }
         public override string Informacija()
         {
-            return $"{Nosaukums} (Grāmata) - Autors: {Autors}, Cena - {Cena}€";
+            return $"{Nosaukums} (Grāmata) - Autors: {Autors}, Cena - {Cena} €";
         }
     }
     public class Elektronika : Produkts
@@ -103,7 +103,7 @@
          }
          public override string Informacija()
          {
-             return $"{Nosaukums} (Elektronika) - Garantija: {Garantija} mēneši, Cena - {Cena}€";
+             return $"{Nosaukums} (Elektronika) - Garantija: {Garantija} mēneši, Cena - {Cena} €";
          }
     }
 }

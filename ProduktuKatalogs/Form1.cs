@@ -23,7 +23,7 @@
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Kļūda, pievienojot grāmatu hey straada: {ex.Message}", "Kļūda", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Kļūda, pievienojot grāmatu hey straada: {ex.Message}", "Kļūda JAUNS ZARS", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
